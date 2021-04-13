@@ -3,8 +3,7 @@
 LOG_DIR=/tmp/SYNC_ERROR.log
 BACKUP_DIR=/mnt/backup/
 IGNORE_LIST=/tmp/ignore.txt
-DATE=$(date +"%Y%m%d")_$(date +"%H%M%S")
-
+DATE="$(date +"%Y-%m-%d") $(date +"%H:%M:%S")"
 
 
 if [ ! -d $BACKUP_DIR ]; then
